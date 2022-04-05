@@ -1,0 +1,16 @@
+a=int(input())
+b=int(input())
+if(a<b):
+print(a is smaller)
+else:
+print(b is smaller)
+
+'''expected output
+10
+20
+a is smaller'''
+
+'''actual output
+10
+20
+a is smaller'''
