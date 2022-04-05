@@ -1,0 +1,14 @@
+a=int(input())
+if(a<10):
+  print('a is less than 10')
+  print('Hi...')
+  
+  '''expected output
+  a=9
+  a is less than 10
+  Hi...'''
+  
+  '''actual output
+  a=9
+  a is less than 10
+  Hi...'''
