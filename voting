@@ -1,0 +1,11 @@
+name=raw_input(input('enter your name')
+age=int(input('enter your age'))
+if(age>=18):
+print('you are eligible for voting',name)
+else:
+print('you are not eligible for voting',name)
+
+''' output
+    enter name Abhinaya
+    enter age  18
+    you are eligible for voting Abhinaya'''
