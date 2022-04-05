@@ -1,0 +1,33 @@
+bill= int(raw_input())
+ if( bill>5000):
+      discount=(bill*50)/100
+      topay=bill-discount
+      print('Total bill is',bill)
+      print('Discount on the bill amount is',discount)
+      print('paid bill is',topay)
+ elif(bill>3000):
+      discount=(bill*30)/100
+      topay=bill-discount
+      print('Total bill is',bill)
+      print('Discount on the bill amount is',discount)
+      print('paid bill is',topay)
+ elif(bill>2000):
+      discount=(bill*20)/100
+      topay=bill-discount
+      print('Total bill is',bill)
+      print('Discount on the bill amount is',discount)
+      print('paid bill is',topay)
+ elif(bill>=1000):
+      discount=(bill*10)/100
+      topay=bill-discount
+      print('Total bill is',bill)
+      print('Discount on the bill amount is',discount)
+      print('paid bill is',topay)
+  elif:
+    print('total bill is',bill)
+        
+        '''output
+        1000
+        Total bill is 1000
+        Discount on the bill amount is 100
+        paid bill is 900
